@@ -29,11 +29,11 @@
     <!-- if you feel an urge to move this to bootstrap or something, you're most welcome -->
     <meta charset="utf-8">
     <title>Online JavaScript beautifier</title>
-    <link rel="icon" href="web/favicon.png" type="image/png">
-    <link rel="stylesheet" href="web/third-party/codemirror/lib/codemirror.css">
+    <link rel="icon" href="https://rawgit.com/newrey/js-beautify/master/web/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://rawgit.com/newrey/js-beautify/master/web/third-party/codemirror/lib/codemirror.css">
 
-    <script src="web/third-party/codemirror/lib/codemirror.js"></script>
-    <script src="web/third-party/codemirror/mode/javascript/javascript.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/web/third-party/codemirror/lib/codemirror.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/web/third-party/codemirror/mode/javascript/javascript.js"></script>
 
     <style>
         body {
@@ -130,20 +130,20 @@
         }
     </style>
 
-    <script src="web/third-party/jquery/jquery.js"></script>
-    <script src="web/third-party/jquery/jquery.cookie.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/web/third-party/jquery/jquery.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/web/third-party/jquery/jquery.cookie.js"></script>
 
-    <script src="js/lib/beautify.js"></script>
-    <script src="js/lib/beautify-css.js"></script>
-    <script src="js/lib/beautify-html.js"></script>
-    <script src="js/test/sanitytest.js"></script>
-    <script src="js/test/generated/beautify-javascript-tests.js"></script>
-    <script src="js/test/generated/beautify-css-tests.js"></script>
-    <script src="js/test/generated/beautify-html-tests.js"></script>
-    <script src="js/lib/unpackers/javascriptobfuscator_unpacker.js"></script>
-    <script src="js/lib/unpackers/urlencode_unpacker.js"></script>
-    <script src="js/lib/unpackers/p_a_c_k_e_r_unpacker.js"></script>
-    <script src="js/lib/unpackers/myobfuscate_unpacker.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/beautify.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/beautify-css.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/beautify-html.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/test/sanitytest.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/test/generated/beautify-javascript-tests.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/test/generated/beautify-css-tests.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/test/generated/beautify-html-tests.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/unpackers/javascriptobfuscator_unpacker.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/unpackers/urlencode_unpacker.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/unpackers/p_a_c_k_e_r_unpacker.js"></script>
+    <script src="https://rawgit.com/newrey/js-beautify/master/js/lib/unpackers/myobfuscate_unpacker.js"></script>
 
     <script>
         var the = {
@@ -312,10 +312,10 @@
         <p>
             <a class="self" href="./">Beautify, unpack or deobfuscate JavaScript and HTML, make JSON/JSONP readable, etc.</a>
         </p>
-        <p>
+        <!-- <p>
             All of the source code is completely free and open, available on <a href="https://github.com/beautify-web/js-beautify">GitHub</a> under MIT licence,
             <br>and we have a command-line version, python library and a <a href="https://npmjs.org/package/js-beautify">node package</a> as well.
-        </p>
+        </p> -->
     </div>
 
 
@@ -415,7 +415,7 @@
         </button>
     </div>
 
-    <div class="blurb">
+  <!--   <div class="blurb">
 
         <h2>Browser extensions and other uses</h2>
         <div class="col-6">
@@ -497,7 +497,7 @@
             <a href="#" style="color: #ccc; border-bottom: 1px dashed #ccc; text-decoration: none;" onclick="run_tests(); return false;">Run the tests</a>
         </p>
 
-    </div>
+    </div> -->
     <div id="testresults"></div>
     <script>
         $(function () {
@@ -545,18 +545,7 @@
 
         });
     </script>
-    <script>
-        var _gaq = [
-            ['_setAccount', 'UA-7409939-1'],
-            ['_trackPageview']
-        ];
-        (function (d, t) {
-            var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src = '//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g, s);
-        }(document, 'script'));
-    </script>
+
 </body>
 
 </html>
